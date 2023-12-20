@@ -3,14 +3,14 @@ kubernetes:
   children:
     master:
       hosts:
-        drummer:
-          ansible_user: matt
-          ansible_host: 10.89.24.21
-    worker:
-      hosts:
         bobbie:
           ansible_user: matt
           ansible_host: 10.89.24.6
+    worker:
+      hosts:
+        drummer:
+          ansible_user: matt
+          ansible_host: 10.89.24.21
         firebrand:
           ansible_user: matt
           ansible_host: 10.89.24.12
